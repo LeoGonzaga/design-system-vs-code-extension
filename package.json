@@ -1,0 +1,21 @@
+{
+  "name": "sirius-demo",
+  "displayName": "sirius",
+  "publisher": "sirius-vs-code",
+  "description": "Design System Zenvia code extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

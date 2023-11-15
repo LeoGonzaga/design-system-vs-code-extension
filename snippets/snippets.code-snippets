@@ -1,0 +1,17 @@
+{
+  "Text bold 300": {
+    "prefix": "bold-300",
+    "body": ["text-bold-300"],
+    "description": "Log output to console"
+  },
+  "Text bold 600": {
+    "prefix": "bold-600",
+    "body": ["text-bold-600"],
+    "description": "Log output to console"
+  },
+  "Text bold 700": {
+    "prefix": "bold-700",
+    "body": ["text-bold-700"],
+    "description": "Log output to console"
+  }
+}
