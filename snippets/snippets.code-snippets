@@ -1,17 +1,76 @@
 {
+  //<============================== FontWeigth ==============================>
+
   "Text bold 300": {
     "prefix": "bold-300",
     "body": ["text-bold-300"],
-    "description": "Log output to console"
+    "description": "font-weigth:300"
   },
-  "Text bold 600": {
-    "prefix": "bold-600",
-    "body": ["text-bold-600"],
-    "description": "Log output to console"
+  "Text bold 400": {
+    "prefix": "bold-400",
+    "body": ["text-bold-400"],
+    "description": "font-weigth:400"
   },
   "Text bold 700": {
     "prefix": "bold-700",
     "body": ["text-bold-700"],
-    "description": "Log output to console"
+    "description": "font-weigth:700"
+  },
+
+  //<============================== Text color ==============================>
+
+  "Text color main": {
+    "prefix": "color-main",
+    "body": ["has-text-color-main"],
+    "description": "color:#6457A6"
+  },
+  "Text color main light": {
+    "prefix": "color-main-light",
+    "body": ["has-text-color-main-ligth"],
+    "description": "color:#9DACFF"
+  },
+  "Text color main dark": {
+    "prefix": "color-main-dark",
+    "body": ["has-text-color-main-dark"],
+    "description": "color:#9DACFF"
+  },
+
+  //<============================== React ==============================>
+
+  "Box shadow level 1": {
+    "prefix": "shadow-1",
+    "body": ["has-shadow-level-1"],
+    "description": "box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;"
+  },
+  "Box shadow level 2": {
+    "prefix": "shadow-2",
+    "body": ["has-shadow-level-2"],
+    "description": "box-shadow: rgba(149, 157, 165, 0.2) 0px 16px 24px;"
+  },
+
+  //<============================== React ==============================>
+
+  "Componente padrão JSX": {
+    "prefix": "rjx",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import * as SC from \"./styles\";",
+      "",
+      "const Demo = ():JSX.Element => {",
+      "  return <SC.Container />;",
+      "}",
+      "",
+      "export default Demo;"
+    ],
+    "description": "Componente padrão JSX"
+  },
+
+  //<============================== Typescript ==============================>
+
+  "Criação de interface": {
+    "prefix": "itf",
+    "body": ["interface $1{", "  $2", "}"],
+    "description": "Criação de interface"
   }
 }
