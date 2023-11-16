@@ -58,11 +58,10 @@ Para criar um novo token, acessse `Personal access token`
 
 Crie um novo token:
 
-![Novo token]()
-
+![Novo token](https://github.com/LeoGonzaga/design-system-vs-code-extension/blob/main/assets/new_token.png)
 Preencha as informações seguindo o exemplo abaixo. Coloque o nome que quiser. O importatne é marcar o marketplace como `Manage`
 
-![Criar novo token]()
+![Criar novo token](https://github.com/LeoGonzaga/design-system-vs-code-extension/blob/main/assets/personal_token.png)
 
 - Copie o token gerado.
 - Agora, crie um [publisher](https://marketplace.visualstudio.com/manage/)
